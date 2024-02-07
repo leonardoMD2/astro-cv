@@ -3,13 +3,21 @@ import Layout from "../layouts/Layout.astro";
 import Header from "../components/header.astro";
 import { Descripcion } from "../components/sobreMi";
 import Experiencia from "../components/experiencia.astro";
+import Educacion from "../components/educacion.astro";
+import Skills from "../components/skills.astro";
 ---
 
 <Layout title="Welcome to my CV.">
   <main>
     <Header />
+    <hr class="bg-indigo-500 h-[2px] rounded-xl my-5" />
     <Descripcion />
+    <hr class="bg-indigo-500 h-[2px] rounded-xl my-5" />
     <Experiencia />
+    <hr class="bg-indigo-500 h-[2px] rounded-xl my-5" />
+    <Educacion />
+    <hr class="bg-indigo-500 h-[2px] rounded-xl my-5" />
+    <Skills />
   </main>
 </Layout>
 

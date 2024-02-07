@@ -8,14 +8,39 @@
     "X":"https://twitter.com/MLeonardoD2",
     "Mail":"martinezjleonardo@gmail.com"
   },
-  "estudios": ["profesorado de química", "analista en sistemas"],
-  "experiencia": {
-    "docencia": [
-      {"Quimica": "1 año"},
-      {"Programacion":"+ 2 años"},
-      {"Informatica":"+ 6 años"}
-    ]
+  "estudios": [{
+    "titulo":"Analista en Sistemas",
+    "expedido":"ISFDYT n° 49",
+    "time":"2014 - 2017"
   },
-  "lenguajes_programacion": ["Javascript", "C/C++", "Python"],
+  {
+    "titulo":"Tramo de Formación Pedagógica nivel medio",
+    "expedido":"ISFDYT n° 49",
+    "time":"2017 - 2018"
+  },{
+    "titulo":"Profesorado de Educación secundaria en Química",
+    "expedido":"ISFDYT n° 49",
+    "time":"2019 - 2022"
+  }],
+  "experiencia": [{
+      "name": "Escuela de educación Técnica n° 1",
+      "position": "Docente Informática general",
+      "startDate": "2018-07",
+      "endDate": "Actual",
+      "summary": "Durante mi tiempo en la E.E.S.T, trabajé en la construcción de conocimientos fundamentales en informática general y dibujo técnico. Mi enfoque ha sido capacitar a estudiantes en los principios básicos de la informática, desde el manejo de software hasta la comprensión de conceptos elementales en programación."
+  },{
+    "name": "Escuela de educación Técnica n° 1",
+    "position": "Docente Programación",
+    "startDate": "2021-03",
+    "endDate": "Actual",
+    "summary": "Durante mi trayectoria profesional, he tenido el privilegio de liderar diversos proyectos para EXPOTEC, destacando la creación de páginas web estáticas para comercios locales, la iniciativa de reciclado de cámaras web para su reutilización en sistemas de vigilancia y la creación de videojuegos 2D utilizando el motor Godot Engine."
+  },{
+    "name": "Escuela de educación Secundaría n° 10",
+    "position": "Docente Química",
+    "startDate": "2022-08",
+    "endDate": "2022-10",
+    "summary": "Durante mi tiempo en E.S, he tenido el privilegio de compartir conocimientos fundamentales sobre química orgánica, centrándome en la formación de hidrocarburos y las principales biomoléculas."
+  }],
+  "skills": ["Javascript", "C/C++","Node.js", "Python", "GODOT Engine", "Arduino"],
   "areas_desarrollo": ["Desarrollo web", "Videojuegos - GODOT", "Arduino","Aplicaciones de consola"]
 }

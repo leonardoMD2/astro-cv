@@ -1,0 +1,20 @@
+---
+import { skills } from "../../public/data.json";
+---
+
+<section>
+  <h1 class="pt-5 text-2xl font-extrabold">Skills</h1>
+  <div>
+    <ul class="flex gap-5 mt-2">
+      {
+        skills.map((element) => {
+          return (
+            <li class="text-slate-50 text-base bg-slate-900 py-1 px-2 rounded-xl font-semibold">
+              {element}
+            </li>
+          );
+        })
+      }
+    </ul>
+  </div>
+</section>

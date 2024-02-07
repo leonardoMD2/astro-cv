@@ -1,0 +1,22 @@
+---
+import { estudios } from "../../public/data.json";
+---
+
+<section>
+  <h1 class="pt-5 text-2xl font-extrabold">Educación</h1>
+  <article>
+    {
+      estudios.map(({ titulo, expedido, time }) => {
+        return (
+          <article class="mt-5">
+            <h3 class="text-black font-medium">{titulo}</h3>
+            <div class="flex justify-between items-center">
+              <h3 class="text-black ">{expedido}</h3>
+              <p class="font-light text-sm text-slate-500">{time}</p>
+            </div>
+          </article>
+        );
+      })
+    }
+  </article>
+</section>
