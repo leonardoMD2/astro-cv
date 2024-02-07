@@ -1,0 +1,15 @@
+{
+    "nombre":"Leonardo Jesús Martinez",
+    "descripcion":"Docente +6 años de experiencia en educación y conocimientos en programación",
+  "sobreMi": "Soy un profesional con una sólida formación en Química y Sistemas, respaldada por mis estudios en profesorado de Química y mi experiencia como analista en sistemas. He dedicado seis años a la enseñanza, lo que me ha permitido desarrollar habilidades tanto en el ámbito educativo como en el tecnológico. Mis lenguajes de programación más utilizados son JavaScript, C/C++ y Python, y me especializo en el desarrollo web, la creación de videojuegos y proyectos con Arduino. Mi pasión por la enseñanza y la tecnología me impulsa a seguir creciendo y enfrentando nuevos desafíos en estos campos.",
+
+  "estudios": ["profesorado de química", "analista en sistemas"],
+  "experiencia": {
+    "docencia": {
+      "quimica": "6 años",
+      "programacion": "2 años"
+    }
+  },
+  "lenguajes_programacion": ["javascript", "c/c++", "python"],
+  "areas_desarrollo": ["desarrollo web", "videojuegos", "arduino"]
+}
