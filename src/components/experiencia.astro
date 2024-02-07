@@ -1,0 +1,23 @@
+---
+import { experiencia } from "../../public/data.json";
+---
+
+<section>
+  <h1 class="text-black">Experiencia</h1>
+  <article class="grid grid-cols-1">
+    {console.log(experiencia.docencia)}
+    <p class="text-black">
+      {Object.keys(experiencia.docencia[0])} - {experiencia.docencia[0].Quimica}
+    </p>
+    <p class="text-black">
+      {Object.keys(experiencia.docencia[1])} - {
+        experiencia.docencia[1].Programacion
+      }
+    </p>
+    <p class="text-black">
+      {Object.keys(experiencia.docencia[2])} - {
+        experiencia.docencia[2].Informatica
+      }
+    </p>
+  </article>
+</section>
